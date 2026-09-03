@@ -1,0 +1,170 @@
+{
+  "zongShu": 18,
+  "tongGuoShu": 18,
+  "shiJian": "2026-09-03T14:37:05.743Z",
+  "fuzeren": "王锐兵",
+  "tiaomu": [
+    {
+      "bianhao": "T01",
+      "zushu": "功能测试",
+      "ming": "注册：创建会员成功且可按邮箱查询",
+      "tongguo": true,
+      "shuoming": "查询状态 200",
+      "shijian": "2026-09-03T14:37:03.655Z",
+      "fuzeren": "王锐兵"
+    },
+    {
+      "bianhao": "T02",
+      "zushu": "功能测试",
+      "ming": "登录：账号密码登录成功并返回会话",
+      "tongguo": true,
+      "shuoming": "状态 201，cookie true",
+      "shijian": "2026-09-03T14:37:03.764Z",
+      "fuzeren": "王锐兵"
+    },
+    {
+      "bianhao": "T03",
+      "zushu": "功能测试",
+      "ming": "文章：公开文章列表返回 8 篇",
+      "tongguo": true,
+      "shuoming": "实际 8 篇",
+      "shijian": "2026-09-03T14:37:03.764Z",
+      "fuzeren": "王锐兵"
+    },
+    {
+      "bianhao": "T04",
+      "zushu": "功能测试",
+      "ming": "文章：新增文章成功且可删除",
+      "tongguo": true,
+      "shuoming": "创建 201 / 删除 true",
+      "shijian": "2026-09-03T14:37:03.912Z",
+      "fuzeren": "王锐兵"
+    },
+    {
+      "bianhao": "T05",
+      "zushu": "功能测试",
+      "ming": "标签：公开标签含 开源项目学习/二次开发笔记/校园生活随笔",
+      "tongguo": true,
+      "shuoming": "实际 [\"二次开发笔记\",\"开源项目学习\",\"校园生活随笔\"]",
+      "shijian": "2026-09-03T14:37:03.939Z",
+      "fuzeren": "王锐兵"
+    },
+    {
+      "bianhao": "T06",
+      "zushu": "功能测试",
+      "ming": "评论：文章评论可读取且含回复",
+      "tongguo": true,
+      "shuoming": "顶层评论 1，含回复 true",
+      "shijian": "2026-09-03T14:37:03.962Z",
+      "fuzeren": "王锐兵"
+    },
+    {
+      "bianhao": "T07",
+      "zushu": "功能测试",
+      "ming": "搜索：关键词“二次开发”命中标题/正文文章",
+      "tongguo": true,
+      "shuoming": "命中 2 篇",
+      "shijian": "2026-09-03T14:37:03.962Z",
+      "fuzeren": "王锐兵"
+    },
+    {
+      "bianhao": "T08",
+      "zushu": "功能测试",
+      "ming": "搜索：无结果关键词返回空且有兜底提示",
+      "tongguo": true,
+      "shuoming": "命中 0，兜底区 true",
+      "shijian": "2026-09-03T14:37:04.024Z",
+      "fuzeren": "王锐兵"
+    },
+    {
+      "bianhao": "T09",
+      "zushu": "权限测试",
+      "ming": "权限：匿名用户可读已发布文章",
+      "tongguo": true,
+      "shuoming": "公开文章 8 篇",
+      "shijian": "2026-09-03T14:37:04.024Z",
+      "fuzeren": "王锐兵"
+    },
+    {
+      "bianhao": "T10",
+      "zushu": "权限测试",
+      "ming": "权限：草稿不出现在公开接口",
+      "tongguo": true,
+      "shuoming": "草稿不可见 true",
+      "shijian": "2026-09-03T14:37:04.199Z",
+      "fuzeren": "王锐兵"
+    },
+    {
+      "bianhao": "T11",
+      "zushu": "权限测试",
+      "ming": "权限：Admin 密钥不出现在公开页面源码",
+      "tongguo": true,
+      "shuoming": "页面含管理密钥 false",
+      "shijian": "2026-09-03T14:37:04.307Z",
+      "fuzeren": "王锐兵"
+    },
+    {
+      "bianhao": "T12",
+      "zushu": "权限测试",
+      "ming": "权限：匿名调用管理写接口被拒绝",
+      "tongguo": true,
+      "shuoming": "状态 403",
+      "shijian": "2026-09-03T14:37:04.320Z",
+      "fuzeren": "王锐兵"
+    },
+    {
+      "bianhao": "T13",
+      "zushu": "主题/界面测试",
+      "ming": "主题：首页 200，自定义 css/js 可加载",
+      "tongguo": true,
+      "shuoming": "css 200 / js 200",
+      "shijian": "2026-09-03T14:37:04.350Z",
+      "fuzeren": "王锐兵"
+    },
+    {
+      "bianhao": "T14",
+      "zushu": "主题/界面测试",
+      "ming": "主题：gscan 校验通过（无 error）",
+      "tongguo": true,
+      "shuoming": "兼容 6.x",
+      "shijian": "2026-09-03T14:37:05.427Z",
+      "fuzeren": "王锐兵"
+    },
+    {
+      "bianhao": "T15",
+      "zushu": "主题/界面测试",
+      "ming": "主题：CSS 采用响应式宽度，窄屏不溢出",
+      "tongguo": true,
+      "shuoming": "CSS 含响应式宽度=true",
+      "shijian": "2026-09-03T14:37:05.427Z",
+      "fuzeren": "王锐兵"
+    },
+    {
+      "bianhao": "T16",
+      "zushu": "主题/界面测试",
+      "ming": "主题：搜索表单语义完整、键盘可操作",
+      "tongguo": true,
+      "shuoming": "role/search + search input + button",
+      "shijian": "2026-09-03T14:37:05.464Z",
+      "fuzeren": "王锐兵"
+    },
+    {
+      "bianhao": "T17",
+      "zushu": "恢复测试",
+      "ming": "恢复：重启后公开文章仍为 8 篇",
+      "tongguo": true,
+      "shuoming": "读回 8 篇",
+      "shijian": "2026-09-03T14:37:05.493Z",
+      "fuzeren": "王锐兵"
+    },
+    {
+      "bianhao": "T18",
+      "zushu": "恢复测试",
+      "ming": "恢复：管理端导出内容 JSON 成功且含数据",
+      "tongguo": true,
+      "shuoming": "状态 200，含文章表 10",
+      "shijian": "2026-09-03T14:37:05.743Z",
+      "fuzeren": "王锐兵"
+    }
+  ]
+}
