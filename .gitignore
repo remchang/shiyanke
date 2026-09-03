@@ -1,0 +1,34 @@
+# ===== Ghost 运行时数据（运行数据与源代码分离，不入库）=====
+runtime/yunxing/
+runtime/content/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Ghost 日志
+*.log
+runtime/yunxing/content/logs/
+
+# 依赖目录
+node_modules/
+theme/**/node_modules/
+
+# 构建产物（保留主题可安装压缩包，忽略其它临时压缩文件）
+*.tmp
+
+# 密钥与环境变量（只提交 .env.example）
+.env
+.env.*
+!.env.example
+*miyao*
+*secret*
+
+# 系统/编辑器垃圾文件
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# 导出的真实成员隐私数据不入库（脱敏后的导出文件放 docs/daochu 并人工检查）
+runtime/daochu-yuanwenjian/
