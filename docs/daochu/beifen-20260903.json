@@ -1,0 +1,1913 @@
+{
+ "db": [
+  {
+   "meta": {
+    "exported_on": 1788446689789,
+    "version": "6.10.3"
+   },
+   "data": {
+    "newsletters": [
+     {
+      "id": "6a997b15cc73742574e05fee",
+      "uuid": "9e29493b-61d4-4cc7-81a5-e903cb8c23bb",
+      "name": "我的开源学习博客",
+      "description": null,
+      "feedback_enabled": 0,
+      "slug": "default-newsletter",
+      "sender_name": null,
+      "sender_email": null,
+      "sender_reply_to": "newsletter",
+      "status": "active",
+      "visibility": "members",
+      "subscribe_on_signup": 1,
+      "sort_order": 0,
+      "header_image": null,
+      "show_header_icon": 1,
+      "show_header_title": 1,
+      "show_excerpt": 0,
+      "title_font_category": "sans_serif",
+      "title_alignment": "center",
+      "show_feature_image": 1,
+      "body_font_category": "sans_serif",
+      "footer_content": null,
+      "show_badge": 1,
+      "show_header_name": 0,
+      "show_post_title_section": 1,
+      "show_comment_cta": 1,
+      "show_subscription_details": 0,
+      "show_latest_posts": 0,
+      "background_color": "light",
+      "post_title_color": null,
+      "created_at": "2026-09-03 21:50:13",
+      "updated_at": "2026-09-03 21:51:24",
+      "button_corners": "rounded",
+      "button_style": "fill",
+      "title_font_weight": "bold",
+      "link_style": "underline",
+      "image_corners": "square",
+      "header_background_color": "transparent",
+      "section_title_color": null,
+      "divider_color": null,
+      "button_color": "accent",
+      "link_color": "accent"
+     }
+    ],
+    "posts": [
+     {
+      "id": "6a997b16cc73742574e0606f",
+      "uuid": "678cd43a-09b8-4bb0-afd4-9f5dd1df882c",
+      "title": "About this site",
+      "slug": "about",
+      "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"hr\",{}]],\"markups\":[[\"a\",[\"href\",\"https://ghost.org\"]]],\"sections\":[[1,\"p\",[[0,[],0,\"我的开源学习博客 is an independent publication launched in September 2026 by 王锐兵. If you subscribe today, you'll get full access to the website as well as email newsletters about new content when it's available. Your subscription makes this site possible, and allows 我的开源学习博客 to continue to exist. Thank you!\"]]],[1,\"h3\",[[0,[],0,\"Access all areas\"]]],[1,\"p\",[[0,[],0,\"By signing up, you'll get access to the full archive of everything that's been published before and everything that's still to come. Your very own private library.\"]]],[1,\"h3\",[[0,[],0,\"Fresh content, delivered\"]]],[1,\"p\",[[0,[],0,\"Stay up to date with new content sent straight to your inbox! No more worrying about whether you missed something because of a pesky algorithm or news feed.\"]]],[1,\"h3\",[[0,[],0,\"Meet people like you\"]]],[1,\"p\",[[0,[],0,\"Join a community of other subscribers who share the same interests.\"]]],[10,0],[1,\"h3\",[[0,[],0,\"Start your own thing\"]]],[1,\"p\",[[0,[],0,\"Enjoying the experience? Get started for free and set up your very own subscription business using \"],[0,[0],1,\"Ghost\"],[0,[],0,\", the same platform that powers this website.\"]]]],\"ghostVersion\":\"4.0\"}",
+      "lexical": null,
+      "html": "<p>我的开源学习博客 is an independent publication launched in September 2026 by 王锐兵. If you subscribe today, you'll get full access to the website as well as email newsletters about new content when it's available. Your subscription makes this site possible, and allows 我的开源学习博客 to continue to exist. Thank you!</p><h3 id=\"access-all-areas\">Access all areas</h3><p>By signing up, you'll get access to the full archive of everything that's been published before and everything that's still to come. Your very own private library.</p><h3 id=\"fresh-content-delivered\">Fresh content, delivered</h3><p>Stay up to date with new content sent straight to your inbox! No more worrying about whether you missed something because of a pesky algorithm or news feed.</p><h3 id=\"meet-people-like-you\">Meet people like you</h3><p>Join a community of other subscribers who share the same interests.</p><hr><h3 id=\"start-your-own-thing\">Start your own thing</h3><p>Enjoying the experience? Get started for free and set up your very own subscription business using <a href=\"https://ghost.org\">Ghost</a>, the same platform that powers this website.</p>",
+      "comment_id": "6a997b16cc73742574e0606f",
+      "plaintext": "我的开源学习博客 is an independent publication launched in September 2026 by 王锐兵. If you subscribe today, you'll get full access to the website as well as email newsletters about new content when it's available. Your subscription makes this site possible, and allows 我的开源学习博客 to continue to exist. Thank you!\n\n\nAccess all areas\n\nBy signing up, you'll get access to the full archive of everything that's been published before and everything that's still to come. Your very own private library.\n\n\nFresh content, delivered\n\nStay up to date with new content sent straight to your inbox! No more worrying about whether you missed something because of a pesky algorithm or news feed.\n\n\nMeet people like you\n\nJoin a community of other subscribers who share the same interests.\n\n\nStart your own thing\n\nEnjoying the experience? Get started for free and set up your very own subscription business using Ghost, the same platform that powers this website.",
+      "feature_image": null,
+      "featured": 0,
+      "type": "page",
+      "status": "published",
+      "locale": null,
+      "visibility": "public",
+      "email_recipient_filter": "all",
+      "created_at": "2026-09-03 21:50:14",
+      "updated_at": "2026-09-03 21:51:24",
+      "published_at": "2026-09-03 21:50:14",
+      "custom_excerpt": null,
+      "codeinjection_head": null,
+      "codeinjection_foot": null,
+      "custom_template": null,
+      "canonical_url": null,
+      "newsletter_id": null,
+      "show_title_and_feature_image": 1
+     },
+     {
+      "id": "6a9980cdd536586bc0d9af59",
+      "uuid": "24ffe2a8-d42d-4efe-8368-3e82797b5e59",
+      "title": "实验01开题记录：这一次我为什么选择基于 Ghost 二次开发，而不是从零手写一个博客系统（长标题边界用例）",
+      "slug": "kaiti-weishenme-xuanze-ghost",
+      "mobiledoc": "{\"version\":\"0.3.1\",\"markups\":[],\"atoms\":[],\"cards\":[],\"sections\":[[1,\"p\",[[0,[],0,\"这次《开源软件与新技术》实验01要求做一个可注册、可写作、可评论、可搜索的个人博客。一开始我是想自己用 Express 从零写的，觉得那样显得技术含量高，但仔细读完指导书后改了主意。\"]]],[1,\"p\",[[0,[],0,\"成熟开源项目 Ghost 已经把认证、编辑器、标签、会员、评论、数据库迁移这些基础能力做完了，我再写一遍只是重复造轮子，而且两周内根本写不到产品级。开源使用的重点不是“装起来”，而是看懂它、划定修改边界并做出可辨识的二次开发。\"]]],[1,\"p\",[[0,[],0,\"所以我的路线是：Ghost 6.10.3 负责基础能力，我把精力放在自定义主题、Content API 和本地搜索增强上。这篇文章作为开题记录，后面每篇开发笔记都会和它互相呼应。\"]]],[1,\"p\",[[0,[],0,\"关键词备查：开源、Ghost、二次开发、RealWorld、技术选型。\"]]]]}",
+      "lexical": null,
+      "html": "<p>这次《开源软件与新技术》实验01要求做一个可注册、可写作、可评论、可搜索的个人博客。一开始我是想自己用 Express 从零写的，觉得那样显得技术含量高，但仔细读完指导书后改了主意。</p><p>成熟开源项目 Ghost 已经把认证、编辑器、标签、会员、评论、数据库迁移这些基础能力做完了，我再写一遍只是重复造轮子，而且两周内根本写不到产品级。开源使用的重点不是“装起来”，而是看懂它、划定修改边界并做出可辨识的二次开发。</p><p>所以我的路线是：Ghost 6.10.3 负责基础能力，我把精力放在自定义主题、Content API 和本地搜索增强上。这篇文章作为开题记录，后面每篇开发笔记都会和它互相呼应。</p><p>关键词备查：开源、Ghost、二次开发、RealWorld、技术选型。</p>",
+      "comment_id": "6a9980cdd536586bc0d9af59",
+      "plaintext": "这次《开源软件与新技术》实验01要求做一个可注册、可写作、可评论、可搜索的个人博客。一开始我是想自己用 Express 从零写的，觉得那样显得技术含量高，但仔细读完指导书后改了主意。\n\n成熟开源项目 Ghost 已经把认证、编辑器、标签、会员、评论、数据库迁移这些基础能力做完了，我再写一遍只是重复造轮子，而且两周内根本写不到产品级。开源使用的重点不是“装起来”，而是看懂它、划定修改边界并做出可辨识的二次开发。\n\n所以我的路线是：Ghost 6.10.3 负责基础能力，我把精力放在自定义主题、Content API 和本地搜索增强上。这篇文章作为开题记录，后面每篇开发笔记都会和它互相呼应。\n\n关键词备查：开源、Ghost、二次开发、RealWorld、技术选型。",
+      "feature_image": null,
+      "featured": 0,
+      "type": "post",
+      "status": "published",
+      "locale": null,
+      "visibility": "public",
+      "email_recipient_filter": "all",
+      "created_at": "2026-09-03 22:14:37",
+      "updated_at": "2026-09-03 22:14:37",
+      "published_at": "2026-09-03 22:14:37",
+      "custom_excerpt": "对比从零开发和站在成熟开源项目肩膀上的差别，记录我选 Ghost 路线的理由。",
+      "codeinjection_head": null,
+      "codeinjection_foot": null,
+      "custom_template": null,
+      "canonical_url": null,
+      "newsletter_id": null,
+      "show_title_and_feature_image": 1
+     },
+     {
+      "id": "6a9980ced536586bc0d9af5f",
+      "uuid": "5d9a1dac-95d6-45e4-9cd7-7a4f35c24c07",
+      "title": "Ghost 6.10.3 在 Windows 上免 Docker 手动安装的完整记录（含命令和踩坑）",
+      "slug": "windows-shoudong-anzhuang-ghost",
+      "mobiledoc": "{\"version\":\"0.3.1\",\"markups\":[],\"atoms\":[],\"cards\":[[\"code\",{\"code\":\"# 安装依赖后，从 Ghost 包内解出内置的 i18n 组件\\n$env:NODE_ENV=\\\"development\\\"\\nnode node_modules/ghost/ghost.js\\n# 看到 “Ghost booted” 后访问 http://localhost:2368/\"}]],\"sections\":[[1,\"p\",[[0,[],0,\"指导书推荐用 ghost install local，但 Ghost 官方 CLI 在 Windows 上直接拒绝本地安装，我这台机器也没有装 WSL 和 Docker。卡住半小时后，我翻 Ghost 的 npm 包发现它本身就是一个 Node 程序，可以直接 require 启动。\"]]],[1,\"p\",[[0,[],0,\"核心思路是：固定 Ghost 6.10.3 版本，把它的依赖用 npm 以 --legacy-peer-deps 装上，sqlite3 用预编译二进制，最后 node node_modules/ghost/ghost.js 启动。下面是关键命令：\"]]],[10,0],[1,\"p\",[[0,[],0,\"踩过的坑有三个：一是 npm 会把手动放进去的 ghost 包当冗余包删掉，所以顺序必须是先装依赖、最后解包；二是 sqlite3 默认要现场编译，本机没有 Visual Studio 构建工具，必须下预编译的 .node 文件；三是运行目录 package.json 的版本号必须和 Ghost 一致，否则主题会被按上古版本校验，报一堆 Missing helper。\"]]],[1,\"p\",[[0,[],0,\"这些步骤我都固化到了 scripts/anzhuang.ps1 里，换一台 Windows 机器也能复现。\"]]]]}",
+      "lexical": null,
+      "html": "<p>指导书推荐用 ghost install local，但 Ghost 官方 CLI 在 Windows 上直接拒绝本地安装，我这台机器也没有装 WSL 和 Docker。卡住半小时后，我翻 Ghost 的 npm 包发现它本身就是一个 Node 程序，可以直接 require 启动。</p><p>核心思路是：固定 Ghost 6.10.3 版本，把它的依赖用 npm 以 --legacy-peer-deps 装上，sqlite3 用预编译二进制，最后 node node_modules/ghost/ghost.js 启动。下面是关键命令：</p><pre><code># 安装依赖后，从 Ghost 包内解出内置的 i18n 组件\n$env:NODE_ENV=\"development\"\nnode node_modules/ghost/ghost.js\n# 看到 “Ghost booted” 后访问 http://localhost:2368/</code></pre><p>踩过的坑有三个：一是 npm 会把手动放进去的 ghost 包当冗余包删掉，所以顺序必须是先装依赖、最后解包；二是 sqlite3 默认要现场编译，本机没有 Visual Studio 构建工具，必须下预编译的 .node 文件；三是运行目录 package.json 的版本号必须和 Ghost 一致，否则主题会被按上古版本校验，报一堆 Missing helper。</p><p>这些步骤我都固化到了 scripts/anzhuang.ps1 里，换一台 Windows 机器也能复现。</p>",
+      "comment_id": "6a9980ced536586bc0d9af5f",
+      "plaintext": "指导书推荐用 ghost install local，但 Ghost 官方 CLI 在 Windows 上直接拒绝本地安装，我这台机器也没有装 WSL 和 Docker。卡住半小时后，我翻 Ghost 的 npm 包发现它本身就是一个 Node 程序，可以直接 require 启动。\n\n核心思路是：固定 Ghost 6.10.3 版本，把它的依赖用 npm 以 --legacy-peer-deps 装上，sqlite3 用预编译二进制，最后 node node_modules/ghost/ghost.js 启动。下面是关键命令：\n\n# 安装依赖后，从 Ghost 包内解出内置的 i18n 组件\n$env:NODE_ENV=\"development\"\nnode node_modules/ghost/ghost.js\n# 看到 “Ghost booted” 后访问 http://localhost:2368/\n\n踩过的坑有三个：一是 npm 会把手动放进去的 ghost 包当冗余包删掉，所以顺序必须是先装依赖、最后解包；二是 sqlite3 默认要现场编译，本机没有 Visual Studio 构建工具，必须下预编译的 .node 文件；三是运行目录 package.json 的版本号必须和 Ghost 一致，否则主题会被按上古版本校验，报一堆 Missing helper。\n\n这些步骤我都固化到了 scripts/anzhuang.ps1 里，换一台 Windows 机器也能复现。",
+      "feature_image": null,
+      "featured": 0,
+      "type": "post",
+      "status": "published",
+      "locale": null,
+      "visibility": "public",
+      "email_recipient_filter": "all",
+      "created_at": "2026-09-03 22:14:38",
+      "updated_at": "2026-09-03 22:14:38",
+      "published_at": "2026-09-03 22:14:38",
+      "custom_excerpt": "Ghost CLI 不支持 Windows，本机又没有 WSL，记录我用 npm 包直接启动 Ghost 的手动方案。",
+      "codeinjection_head": null,
+      "codeinjection_foot": null,
+      "custom_template": null,
+      "canonical_url": null,
+      "newsletter_id": null,
+      "show_title_and_feature_image": 1
+     },
+     {
+      "id": "6a9980ced536586bc0d9af64",
+      "uuid": "0590d580-23e6-41bf-af0a-0245af5151be",
+      "title": "读懂 Ghost 的目录结构：哪些地方可以改，哪些地方一行都别碰",
+      "slug": "du-dong-mulu-jiegou",
+      "mobiledoc": "{\"version\":\"0.3.1\",\"markups\":[],\"atoms\":[],\"cards\":[],\"sections\":[[1,\"p\",[[0,[],0,\"二次开发最忌讳的就是在生成文件和核心源码里乱改，升级一次全部白干。我花了一晚上把 Ghost 的目录按“能改/别碰”分了类。\"]]],[1,\"p\",[[0,[],0,\"可以改的是 content/themes 下我自己的主题、Content API 取数逻辑和伴随脚本；不能碰的是 node_modules/ghost/core 核心、数据库迁移文件和生成的静态资源。\"]]],[1,\"p\",[[0,[],0,\"判断标准很简单：升级 Ghost 版本时会被覆盖的目录都不应该直接改，要改行为就通过主题、助手和 API 在边界外实现。这个思路在 docs/architecture.md 里画了图。\"]]],[1,\"p\",[[0,[],0,\"理解目录结构之后，再看请求链路就清楚了：浏览器请求先到主题模板，模板用 #get 助手或 Content API 找内容服务，内容服务再读 SQLite，最后拼成 HTML 返回。\"]]]]}",
+      "lexical": null,
+      "html": "<p>二次开发最忌讳的就是在生成文件和核心源码里乱改，升级一次全部白干。我花了一晚上把 Ghost 的目录按“能改/别碰”分了类。</p><p>可以改的是 content/themes 下我自己的主题、Content API 取数逻辑和伴随脚本；不能碰的是 node_modules/ghost/core 核心、数据库迁移文件和生成的静态资源。</p><p>判断标准很简单：升级 Ghost 版本时会被覆盖的目录都不应该直接改，要改行为就通过主题、助手和 API 在边界外实现。这个思路在 docs/architecture.md 里画了图。</p><p>理解目录结构之后，再看请求链路就清楚了：浏览器请求先到主题模板，模板用 #get 助手或 Content API 找内容服务，内容服务再读 SQLite，最后拼成 HTML 返回。</p>",
+      "comment_id": "6a9980ced536586bc0d9af64",
+      "plaintext": "二次开发最忌讳的就是在生成文件和核心源码里乱改，升级一次全部白干。我花了一晚上把 Ghost 的目录按“能改/别碰”分了类。\n\n可以改的是 content/themes 下我自己的主题、Content API 取数逻辑和伴随脚本；不能碰的是 node_modules/ghost/core 核心、数据库迁移文件和生成的静态资源。\n\n判断标准很简单：升级 Ghost 版本时会被覆盖的目录都不应该直接改，要改行为就通过主题、助手和 API 在边界外实现。这个思路在 docs/architecture.md 里画了图。\n\n理解目录结构之后，再看请求链路就清楚了：浏览器请求先到主题模板，模板用 #get 助手或 Content API 找内容服务，内容服务再读 SQLite，最后拼成 HTML 返回。",
+      "feature_image": null,
+      "featured": 0,
+      "type": "post",
+      "status": "published",
+      "locale": null,
+      "visibility": "public",
+      "email_recipient_filter": "all",
+      "created_at": "2026-09-03 22:14:38",
+      "updated_at": "2026-09-03 22:14:38",
+      "published_at": "2026-09-03 22:14:38",
+      "custom_excerpt": "修改边界是这次实验反复强调的事，我把 Ghost 的关键目录整理成了一张表。",
+      "codeinjection_head": null,
+      "codeinjection_foot": null,
+      "custom_template": null,
+      "canonical_url": null,
+      "newsletter_id": null,
+      "show_title_and_feature_image": 1
+     },
+     {
+      "id": "6a9980ced536586bc0d9af69",
+      "uuid": "2a534f7c-196d-4633-a3c8-b6d4e84aca70",
+      "title": "Handlebars 主题入门：从官方 Source 主题改出我的 shiyanke-theme",
+      "slug": "handlebars-zhuti-rumen",
+      "mobiledoc": "{\"version\":\"0.3.1\",\"markups\":[],\"atoms\":[],\"cards\":[],\"sections\":[[1,\"p\",[[0,[],0,\"Ghost 主题用的是 Handlebars 模板，default.hbs 是外壳，index.hbs 是文章列表，post.hbs 是文章详情，partials 目录放可复用的小块。我从 Ghost 6.10.3 内置的 Source 主题 1.5.0 复制出一份，改名 shiyanke-theme，再逐块改造。\"]]],[1,\"p\",[[0,[],0,\"导航部分把 Sign in、Subscribe 这些英文换成了登录、注册会员，搜索图标改成跳我自己写的 /sousuo/ 搜索页；文章卡片补上了中文日期和阅读时长；详情页正文末尾加了一排标签胶囊，相关文章的标题也改成了中文。\"]]],[1,\"p\",[[0,[],0,\"样式上我没有直接改官方 screen.css，而是新加了一层 zhuti-gaizao.css 做覆盖。这样万一改坏了，删掉这一行引用就能回滚，也方便老师对比上游基线和我的版本到底差在哪。\"]]],[1,\"p\",[[0,[],0,\"主题每次改完我都会跑一遍 gscan 校验，保证没有 error 级别的兼容性问题，这也是指导书明确要求的。\"]]]]}",
+      "lexical": null,
+      "html": "<p>Ghost 主题用的是 Handlebars 模板，default.hbs 是外壳，index.hbs 是文章列表，post.hbs 是文章详情，partials 目录放可复用的小块。我从 Ghost 6.10.3 内置的 Source 主题 1.5.0 复制出一份，改名 shiyanke-theme，再逐块改造。</p><p>导航部分把 Sign in、Subscribe 这些英文换成了登录、注册会员，搜索图标改成跳我自己写的 /sousuo/ 搜索页；文章卡片补上了中文日期和阅读时长；详情页正文末尾加了一排标签胶囊，相关文章的标题也改成了中文。</p><p>样式上我没有直接改官方 screen.css，而是新加了一层 zhuti-gaizao.css 做覆盖。这样万一改坏了，删掉这一行引用就能回滚，也方便老师对比上游基线和我的版本到底差在哪。</p><p>主题每次改完我都会跑一遍 gscan 校验，保证没有 error 级别的兼容性问题，这也是指导书明确要求的。</p>",
+      "comment_id": "6a9980ced536586bc0d9af69",
+      "plaintext": "Ghost 主题用的是 Handlebars 模板，default.hbs 是外壳，index.hbs 是文章列表，post.hbs 是文章详情，partials 目录放可复用的小块。我从 Ghost 6.10.3 内置的 Source 主题 1.5.0 复制出一份，改名 shiyanke-theme，再逐块改造。\n\n导航部分把 Sign in、Subscribe 这些英文换成了登录、注册会员，搜索图标改成跳我自己写的 /sousuo/ 搜索页；文章卡片补上了中文日期和阅读时长；详情页正文末尾加了一排标签胶囊，相关文章的标题也改成了中文。\n\n样式上我没有直接改官方 screen.css，而是新加了一层 zhuti-gaizao.css 做覆盖。这样万一改坏了，删掉这一行引用就能回滚，也方便老师对比上游基线和我的版本到底差在哪。\n\n主题每次改完我都会跑一遍 gscan 校验，保证没有 error 级别的兼容性问题，这也是指导书明确要求的。",
+      "feature_image": null,
+      "featured": 0,
+      "type": "post",
+      "status": "published",
+      "locale": null,
+      "visibility": "public",
+      "email_recipient_filter": "all",
+      "created_at": "2026-09-03 22:14:38",
+      "updated_at": "2026-09-03 22:14:38",
+      "published_at": "2026-09-03 22:14:38",
+      "custom_excerpt": "记录主题模板的基本组成，以及我在导航、文章卡片、详情页上做的具体改动。",
+      "codeinjection_head": null,
+      "codeinjection_foot": null,
+      "custom_template": null,
+      "canonical_url": null,
+      "newsletter_id": null,
+      "show_title_and_feature_image": 1
+     },
+     {
+      "id": "6a9980cfd536586bc0d9af6e",
+      "uuid": "b7810ba5-c3ea-4c8c-9ca6-12941ead1747",
+      "title": "Content API 初体验：为什么只读密钥可以放心写在前端代码里",
+      "slug": "content-api-chutiyan",
+      "mobiledoc": "{\"version\":\"0.3.1\",\"markups\":[],\"atoms\":[],\"cards\":[],\"sections\":[[1,\"p\",[[0,[],0,\"做本地搜索增强时我纠结过：前端代码里写密钥会不会泄密？读完文档才明白 Ghost 把 API 分成了两类。\"]]],[1,\"p\",[[0,[],0,\"Content API Key 是只读的公开密钥，只能取“已公开发布”的内容，设计上就是给浏览器和静态站点用的；Admin API Key 才能写数据、看会员，它必须留在服务端脚本里，绝对不能进主题。\"]]],[1,\"p\",[[0,[],0,\"我的搜索页只用 Content API 拉文章标题、摘要和正文纯文本，拉回来之后在浏览器本地做匹配和高亮。这样即使有人把只读密钥拿走，也只能看到本来就公开的文章，不会泄露草稿和会员信息。\"]]],[1,\"p\",[[0,[],0,\"播种脚本用的 Admin API Key 只存在本机 runtime 目录，并且被 .gitignore 排除，仓库里留的是 .env.example 占位。\"]]]]}",
+      "lexical": null,
+      "html": "<p>做本地搜索增强时我纠结过：前端代码里写密钥会不会泄密？读完文档才明白 Ghost 把 API 分成了两类。</p><p>Content API Key 是只读的公开密钥，只能取“已公开发布”的内容，设计上就是给浏览器和静态站点用的；Admin API Key 才能写数据、看会员，它必须留在服务端脚本里，绝对不能进主题。</p><p>我的搜索页只用 Content API 拉文章标题、摘要和正文纯文本，拉回来之后在浏览器本地做匹配和高亮。这样即使有人把只读密钥拿走，也只能看到本来就公开的文章，不会泄露草稿和会员信息。</p><p>播种脚本用的 Admin API Key 只存在本机 runtime 目录，并且被 .gitignore 排除，仓库里留的是 .env.example 占位。</p>",
+      "comment_id": "6a9980cfd536586bc0d9af6e",
+      "plaintext": "做本地搜索增强时我纠结过：前端代码里写密钥会不会泄密？读完文档才明白 Ghost 把 API 分成了两类。\n\nContent API Key 是只读的公开密钥，只能取“已公开发布”的内容，设计上就是给浏览器和静态站点用的；Admin API Key 才能写数据、看会员，它必须留在服务端脚本里，绝对不能进主题。\n\n我的搜索页只用 Content API 拉文章标题、摘要和正文纯文本，拉回来之后在浏览器本地做匹配和高亮。这样即使有人把只读密钥拿走，也只能看到本来就公开的文章，不会泄露草稿和会员信息。\n\n播种脚本用的 Admin API Key 只存在本机 runtime 目录，并且被 .gitignore 排除，仓库里留的是 .env.example 占位。",
+      "feature_image": null,
+      "featured": 0,
+      "type": "post",
+      "status": "published",
+      "locale": null,
+      "visibility": "public",
+      "email_recipient_filter": "all",
+      "created_at": "2026-09-03 22:14:39",
+      "updated_at": "2026-09-03 22:14:39",
+      "published_at": "2026-09-03 22:14:39",
+      "custom_excerpt": "区分 Content API Key 和 Admin API Key，是这次搜索功能敢放在主题层的前提。",
+      "codeinjection_head": null,
+      "codeinjection_foot": null,
+      "custom_template": null,
+      "canonical_url": null,
+      "newsletter_id": null,
+      "show_title_and_feature_image": 1
+     },
+     {
+      "id": "6a9980cfd536586bc0d9af73",
+      "uuid": "99f42595-3bcf-4e77-9e55-58363bac4317",
+      "title": "本地搜索增强是怎么做出来的：关键词高亮、最近搜索和无结果推荐",
+      "slug": "bendi-sousuo-zengqiang-zuofa",
+      "mobiledoc": "{\"version\":\"0.3.1\",\"markups\":[],\"atoms\":[],\"cards\":[],\"sections\":[[1,\"p\",[[0,[],0,\"这是我选的自主功能，对应 Issue #3。目标是让搜索不只是“能搜到”，而是搜得好用：结果里关键词要高亮，刷新后最近搜过的词还在，搜不到时不能给用户一个空白页。\"]]],[1,\"p\",[[0,[],0,\"实现上，bendi-sousuo.js 第一次搜索时通过 Content API 把全部公开文章拉到内存缓存，之后本地匹配。标题命中权重最高，其次摘要，正文按命中次数排序。高亮时先转义正则特殊字符再包 mark 标签——这一点是被测试用例逼出来的：一开始搜星号页面直接报错。\"]]],[1,\"p\",[[0,[],0,\"最近搜索用 localStorage 存最近 8 条，去重、新的在前，可以一键重搜也可以清空。无结果时页面会列出全部标签，标签是主题用 #get 助手在服务端渲染的，不额外发请求。\"]]],[1,\"p\",[[0,[],0,\"整个功能没有改 Ghost 核心一行代码，全部在主题层完成，将来升级 Ghost 只需要重新上传主题，这正是把功能放在主题而不是核心里的原因。\"]]]]}",
+      "lexical": null,
+      "html": "<p>这是我选的自主功能，对应 Issue #3。目标是让搜索不只是“能搜到”，而是搜得好用：结果里关键词要高亮，刷新后最近搜过的词还在，搜不到时不能给用户一个空白页。</p><p>实现上，bendi-sousuo.js 第一次搜索时通过 Content API 把全部公开文章拉到内存缓存，之后本地匹配。标题命中权重最高，其次摘要，正文按命中次数排序。高亮时先转义正则特殊字符再包 mark 标签——这一点是被测试用例逼出来的：一开始搜星号页面直接报错。</p><p>最近搜索用 localStorage 存最近 8 条，去重、新的在前，可以一键重搜也可以清空。无结果时页面会列出全部标签，标签是主题用 #get 助手在服务端渲染的，不额外发请求。</p><p>整个功能没有改 Ghost 核心一行代码，全部在主题层完成，将来升级 Ghost 只需要重新上传主题，这正是把功能放在主题而不是核心里的原因。</p>",
+      "comment_id": "6a9980cfd536586bc0d9af73",
+      "plaintext": "这是我选的自主功能，对应 Issue #3。目标是让搜索不只是“能搜到”，而是搜得好用：结果里关键词要高亮，刷新后最近搜过的词还在，搜不到时不能给用户一个空白页。\n\n实现上，bendi-sousuo.js 第一次搜索时通过 Content API 把全部公开文章拉到内存缓存，之后本地匹配。标题命中权重最高，其次摘要，正文按命中次数排序。高亮时先转义正则特殊字符再包 mark 标签——这一点是被测试用例逼出来的：一开始搜星号页面直接报错。\n\n最近搜索用 localStorage 存最近 8 条，去重、新的在前，可以一键重搜也可以清空。无结果时页面会列出全部标签，标签是主题用 #get 助手在服务端渲染的，不额外发请求。\n\n整个功能没有改 Ghost 核心一行代码，全部在主题层完成，将来升级 Ghost 只需要重新上传主题，这正是把功能放在主题而不是核心里的原因。",
+      "feature_image": null,
+      "featured": 0,
+      "type": "post",
+      "status": "published",
+      "locale": null,
+      "visibility": "public",
+      "email_recipient_filter": "all",
+      "created_at": "2026-09-03 22:14:39",
+      "updated_at": "2026-09-03 22:14:39",
+      "published_at": "2026-09-03 22:14:39",
+      "custom_excerpt": "自主功能开发笔记，记录匹配排序、正则转义、localStorage 和无结果兜底的实现思路。",
+      "codeinjection_head": null,
+      "codeinjection_foot": null,
+      "custom_template": null,
+      "canonical_url": null,
+      "newsletter_id": null,
+      "show_title_and_feature_image": 1
+     },
+     {
+      "id": "6a9980cfd536586bc0d9af78",
+      "uuid": "7ddf0537-f7c8-414f-bca8-badbf4ff6f52",
+      "title": "课堂随笔：第一次硬着头皮读上万行开源代码，心态是怎么变化的",
+      "slug": "kaitang-suibi-du-daima-xintai",
+      "mobiledoc": "{\"version\":\"0.3.1\",\"markups\":[],\"atoms\":[],\"cards\":[],\"sections\":[[1,\"p\",[[0,[],0,\"第一次打开 Ghost 的 core 目录时人是懵的，文件夹一层套一层，文件名全认识、连起来看不懂。后来老师说定向阅读就行，不用每行都看，才慢慢不慌。\"]]],[1,\"p\",[[0,[],0,\"我的办法是带着问题读：搜索框的请求走到哪、主题助手在哪里注册、评论权限谁来管。每个问题只追一条链路，读完画一张图，比从头到尾硬啃有效得多。\"]]],[1,\"p\",[[0,[],0,\"另外一个体会是读开源代码要善用报错信息。这次 Windows 安装踩的几个坑，全是靠认真读 error stack 定位到的，比搜来的二手答案靠谱。\"]]],[1,\"p\",[[0,[],0,\"留个纪念：这篇文章下面故意没有评论，用来测试“空评论”时主题布局会不会塌。\"]]]]}",
+      "lexical": null,
+      "html": "<p>第一次打开 Ghost 的 core 目录时人是懵的，文件夹一层套一层，文件名全认识、连起来看不懂。后来老师说定向阅读就行，不用每行都看，才慢慢不慌。</p><p>我的办法是带着问题读：搜索框的请求走到哪、主题助手在哪里注册、评论权限谁来管。每个问题只追一条链路，读完画一张图，比从头到尾硬啃有效得多。</p><p>另外一个体会是读开源代码要善用报错信息。这次 Windows 安装踩的几个坑，全是靠认真读 error stack 定位到的，比搜来的二手答案靠谱。</p><p>留个纪念：这篇文章下面故意没有评论，用来测试“空评论”时主题布局会不会塌。</p>",
+      "comment_id": "6a9980cfd536586bc0d9af78",
+      "plaintext": "第一次打开 Ghost 的 core 目录时人是懵的，文件夹一层套一层，文件名全认识、连起来看不懂。后来老师说定向阅读就行，不用每行都看，才慢慢不慌。\n\n我的办法是带着问题读：搜索框的请求走到哪、主题助手在哪里注册、评论权限谁来管。每个问题只追一条链路，读完画一张图，比从头到尾硬啃有效得多。\n\n另外一个体会是读开源代码要善用报错信息。这次 Windows 安装踩的几个坑，全是靠认真读 error stack 定位到的，比搜来的二手答案靠谱。\n\n留个纪念：这篇文章下面故意没有评论，用来测试“空评论”时主题布局会不会塌。",
+      "feature_image": null,
+      "featured": 0,
+      "type": "post",
+      "status": "published",
+      "locale": null,
+      "visibility": "public",
+      "email_recipient_filter": "all",
+      "created_at": "2026-09-03 22:14:39",
+      "updated_at": "2026-09-03 22:14:39",
+      "published_at": "2026-09-03 22:14:39",
+      "custom_excerpt": "这篇文章刻意不留评论，作为“零评论”边界用例，顺便记录学习心态。",
+      "codeinjection_head": null,
+      "codeinjection_foot": null,
+      "custom_template": null,
+      "canonical_url": null,
+      "newsletter_id": null,
+      "show_title_and_feature_image": 1
+     },
+     {
+      "id": "6a9980cfd536586bc0d9af7d",
+      "uuid": "a66b864e-77d4-4784-b4ca-0df1fb176fc3",
+      "title": "周末图书馆打卡：写代码之外也要好好生活",
+      "slug": "zhounmo-tushuguan-daka",
+      "mobiledoc": "{\"version\":\"0.3.1\",\"markups\":[],\"atoms\":[],\"cards\":[],\"sections\":[[1,\"p\",[[0,[],0,\"周六泡了一天图书馆，上午改主题，下午看了半本《人月神话》，晚上绕着操场走了五圈。开源代码要读，身体也得练。\"]]],[1,\"p\",[[0,[],0,\"最近想明白一件事：工程能力不是靠熬大夜堆出来的，而是靠把问题拆小、一个一个验证慢慢攒出来的，就像这次装 Ghost，看着吓人，拆成十小步之后每一步都能验证。\"]]],[1,\"p\",[[0,[],0,\"下周计划：把搜索的自动化测试补齐，再准备课堂 5 分钟展示的讲稿，加油。\"]]]]}",
+      "lexical": null,
+      "html": "<p>周六泡了一天图书馆，上午改主题，下午看了半本《人月神话》，晚上绕着操场走了五圈。开源代码要读，身体也得练。</p><p>最近想明白一件事：工程能力不是靠熬大夜堆出来的，而是靠把问题拆小、一个一个验证慢慢攒出来的，就像这次装 Ghost，看着吓人，拆成十小步之后每一步都能验证。</p><p>下周计划：把搜索的自动化测试补齐，再准备课堂 5 分钟展示的讲稿，加油。</p>",
+      "comment_id": "6a9980cfd536586bc0d9af7d",
+      "plaintext": "周六泡了一天图书馆，上午改主题，下午看了半本《人月神话》，晚上绕着操场走了五圈。开源代码要读，身体也得练。\n\n最近想明白一件事：工程能力不是靠熬大夜堆出来的，而是靠把问题拆小、一个一个验证慢慢攒出来的，就像这次装 Ghost，看着吓人，拆成十小步之后每一步都能验证。\n\n下周计划：把搜索的自动化测试补齐，再准备课堂 5 分钟展示的讲稿，加油。",
+      "feature_image": null,
+      "featured": 0,
+      "type": "post",
+      "status": "published",
+      "locale": null,
+      "visibility": "public",
+      "email_recipient_filter": "all",
+      "created_at": "2026-09-03 22:14:39",
+      "updated_at": "2026-09-03 22:14:39",
+      "published_at": "2026-09-03 22:14:39",
+      "custom_excerpt": "第三类标签的填充文章，证明标签聚合页不是空的。",
+      "codeinjection_head": null,
+      "codeinjection_foot": null,
+      "custom_template": null,
+      "canonical_url": null,
+      "newsletter_id": null,
+      "show_title_and_feature_image": 1
+     },
+     {
+      "id": "6a9980d0d536586bc0d9af90",
+      "uuid": "adce08f6-5957-4e45-a970-ba863657db45",
+      "title": "站内搜索",
+      "slug": "sousuo",
+      "mobiledoc": "{\"version\":\"0.3.1\",\"markups\":[],\"atoms\":[],\"cards\":[],\"sections\":[[1,\"p\",[[0,[],0,\"在上方输入关键词，回车即可搜索全站公开文章。\"]]]]}",
+      "lexical": null,
+      "html": "<p>在上方输入关键词，回车即可搜索全站公开文章。</p>",
+      "comment_id": "6a9980d0d536586bc0d9af90",
+      "plaintext": "在上方输入关键词，回车即可搜索全站公开文章。",
+      "feature_image": null,
+      "featured": 0,
+      "type": "page",
+      "status": "published",
+      "locale": null,
+      "visibility": "public",
+      "email_recipient_filter": "all",
+      "created_at": "2026-09-03 22:14:40",
+      "updated_at": "2026-09-03 22:14:40",
+      "published_at": "2026-09-03 22:14:40",
+      "custom_excerpt": null,
+      "codeinjection_head": null,
+      "codeinjection_foot": null,
+      "custom_template": "page-sousuo.hbs",
+      "canonical_url": null,
+      "newsletter_id": null,
+      "show_title_and_feature_image": 1
+     }
+    ],
+    "posts_meta": [],
+    "users": [
+     {
+      "id": "6a997b12cc73742574e05fdd",
+      "name": "王锐兵",
+      "slug": "wang",
+      "password": "$2a$10$RmYhePFeWYFj84E4KZQ1m.CqLcsF4NyyeafmfkMpOMHa2V16OESWG",
+      "email": "admin@shiyanke.local",
+      "profile_image": null,
+      "cover_image": null,
+      "bio": null,
+      "website": null,
+      "location": null,
+      "facebook": null,
+      "twitter": null,
+      "threads": null,
+      "bluesky": null,
+      "mastodon": null,
+      "tiktok": null,
+      "youtube": null,
+      "instagram": null,
+      "linkedin": null,
+      "accessibility": null,
+      "status": "active",
+      "locale": null,
+      "visibility": "public",
+      "meta_title": null,
+      "meta_description": null,
+      "tour": null,
+      "last_seen": "2026-09-03 22:44:49",
+      "comment_notifications": 1,
+      "free_member_signup_notification": 1,
+      "paid_subscription_started_notification": 1,
+      "paid_subscription_canceled_notification": 0,
+      "mention_notifications": 1,
+      "recommendation_notifications": 1,
+      "milestone_notifications": 1,
+      "donation_notifications": 1,
+      "created_at": "2026-09-03 21:50:10",
+      "updated_at": "2026-09-03 22:44:49"
+     }
+    ],
+    "posts_authors": [
+     {
+      "id": "6a997b16cc73742574e06070",
+      "post_id": "6a997b16cc73742574e0606f",
+      "author_id": "6a997b12cc73742574e05fdd",
+      "sort_order": 0
+     },
+     {
+      "id": "6a9980ced536586bc0d9af5c",
+      "post_id": "6a9980cdd536586bc0d9af59",
+      "author_id": "6a997b12cc73742574e05fdd",
+      "sort_order": 0
+     },
+     {
+      "id": "6a9980ced536586bc0d9af61",
+      "post_id": "6a9980ced536586bc0d9af5f",
+      "author_id": "6a997b12cc73742574e05fdd",
+      "sort_order": 0
+     },
+     {
+      "id": "6a9980ced536586bc0d9af66",
+      "post_id": "6a9980ced536586bc0d9af64",
+      "author_id": "6a997b12cc73742574e05fdd",
+      "sort_order": 0
+     },
+     {
+      "id": "6a9980ced536586bc0d9af6b",
+      "post_id": "6a9980ced536586bc0d9af69",
+      "author_id": "6a997b12cc73742574e05fdd",
+      "sort_order": 0
+     },
+     {
+      "id": "6a9980cfd536586bc0d9af70",
+      "post_id": "6a9980cfd536586bc0d9af6e",
+      "author_id": "6a997b12cc73742574e05fdd",
+      "sort_order": 0
+     },
+     {
+      "id": "6a9980cfd536586bc0d9af75",
+      "post_id": "6a9980cfd536586bc0d9af73",
+      "author_id": "6a997b12cc73742574e05fdd",
+      "sort_order": 0
+     },
+     {
+      "id": "6a9980cfd536586bc0d9af7a",
+      "post_id": "6a9980cfd536586bc0d9af78",
+      "author_id": "6a997b12cc73742574e05fdd",
+      "sort_order": 0
+     },
+     {
+      "id": "6a9980cfd536586bc0d9af7f",
+      "post_id": "6a9980cfd536586bc0d9af7d",
+      "author_id": "6a997b12cc73742574e05fdd",
+      "sort_order": 0
+     },
+     {
+      "id": "6a9980d0d536586bc0d9af91",
+      "post_id": "6a9980d0d536586bc0d9af90",
+      "author_id": "6a997b12cc73742574e05fdd",
+      "sort_order": 0
+     }
+    ],
+    "roles": [
+     {
+      "id": "6a997b12cc73742574e05fde",
+      "name": "Administrator",
+      "description": "Administrators",
+      "created_at": "2026-09-03 21:50:10",
+      "updated_at": "2026-09-03 21:50:10"
+     },
+     {
+      "id": "6a997b12cc73742574e05fdf",
+      "name": "Editor",
+      "description": "Editors",
+      "created_at": "2026-09-03 21:50:10",
+      "updated_at": "2026-09-03 21:50:10"
+     },
+     {
+      "id": "6a997b12cc73742574e05fe0",
+      "name": "Author",
+      "description": "Authors",
+      "created_at": "2026-09-03 21:50:10",
+      "updated_at": "2026-09-03 21:50:10"
+     },
+     {
+      "id": "6a997b12cc73742574e05fe1",
+      "name": "Contributor",
+      "description": "Contributors",
+      "created_at": "2026-09-03 21:50:10",
+      "updated_at": "2026-09-03 21:50:10"
+     },
+     {
+      "id": "6a997b12cc73742574e05fe2",
+      "name": "Owner",
+      "description": "Blog Owner",
+      "created_at": "2026-09-03 21:50:10",
+      "updated_at": "2026-09-03 21:50:10"
+     },
+     {
+      "id": "6a997b12cc73742574e05fe3",
+      "name": "Admin Integration",
+      "description": "External Apps",
+      "created_at": "2026-09-03 21:50:10",
+      "updated_at": "2026-09-03 21:50:10"
+     },
+     {
+      "id": "6a997b12cc73742574e05fe4",
+      "name": "Ghost Explore Integration",
+      "description": "Internal Integration for the Ghost Explore directory",
+      "created_at": "2026-09-03 21:50:10",
+      "updated_at": "2026-09-03 21:50:10"
+     },
+     {
+      "id": "6a997b12cc73742574e05fe5",
+      "name": "Self-Serve Migration Integration",
+      "description": "Internal Integration for the Self-Serve migration tool",
+      "created_at": "2026-09-03 21:50:10",
+      "updated_at": "2026-09-03 21:50:10"
+     },
+     {
+      "id": "6a997b12cc73742574e05fe6",
+      "name": "DB Backup Integration",
+      "description": "Internal DB Backup Client",
+      "created_at": "2026-09-03 21:50:10",
+      "updated_at": "2026-09-03 21:50:10"
+     },
+     {
+      "id": "6a997b12cc73742574e05fe7",
+      "name": "Scheduler Integration",
+      "description": "Internal Scheduler Client",
+      "created_at": "2026-09-03 21:50:10",
+      "updated_at": "2026-09-03 21:50:10"
+     },
+     {
+      "id": "6a997b12cc73742574e05fe8",
+      "name": "Super Editor",
+      "description": "Super Editors",
+      "created_at": "2026-09-03 21:50:10",
+      "updated_at": "2026-09-03 21:50:10"
+     }
+    ],
+    "roles_users": [
+     {
+      "id": "6a997b15cc73742574e05fe9",
+      "role_id": "6a997b12cc73742574e05fe2",
+      "user_id": "6a997b12cc73742574e05fdd"
+     }
+    ],
+    "settings": [
+     {
+      "id": "6a997b17cc73742574e06226",
+      "group": "core",
+      "key": "last_mentions_report_email_timestamp",
+      "value": null,
+      "type": "number",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06227",
+      "group": "core",
+      "key": "db_hash",
+      "value": "c406b81e-0df5-4341-b528-3ea0799baa76",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06228",
+      "group": "core",
+      "key": "routes_hash",
+      "value": "3d180d52c663d173a6be791ef411ed01",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 21:50:16"
+     },
+     {
+      "id": "6a997b17cc73742574e06229",
+      "group": "core",
+      "key": "next_update_check",
+      "value": "1788529855",
+      "type": "number",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 21:50:55"
+     },
+     {
+      "id": "6a997b17cc73742574e0622a",
+      "group": "core",
+      "key": "notifications",
+      "value": "[]",
+      "type": "array",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0622b",
+      "group": "core",
+      "key": "version_notifications",
+      "value": "[]",
+      "type": "array",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0622c",
+      "group": "core",
+      "key": "admin_session_secret",
+      "value": "d9f939fc1f2612840d483aa6dbc949a1e7e7992e48e3926f78f711926bc6e9ec",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0622d",
+      "group": "core",
+      "key": "theme_session_secret",
+      "value": "f608f6fa6d951b9cdace446cc6f4933e426ae65588edaa13691f6c1062834966",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0622e",
+      "group": "core",
+      "key": "ghost_public_key",
+      "value": "-----BEGIN RSA PUBLIC KEY-----\nMIGJAoGBALkb5qrv3Wnpua/N30VFo3FvrKslF/wo68IgQ3HtGcNEFwPDpfNRvigS3HzR54w5\n2b7gu4oNwIF2HZDC2DOWe1LL9daNQW3H1O0PudCIaLDx+JwlAsHeBaUcCrPIIFJIOq5vTj89\nnyCNCmDcSmNP+jqdCSmRyovMCH+m60qPjferAgMBAAE=\n-----END RSA PUBLIC KEY-----\n",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0622f",
+      "group": "core",
+      "key": "ghost_private_key",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nMIICWwIBAAKBgQC5G+aq791p6bmvzd9FRaNxb6yrJRf8KOvCIENx7RnDRBcDw6XzUb4oEtx8\n0eeMOdm+4LuKDcCBdh2QwtgzlntSy/XWjUFtx9TtD7nQiGiw8ficJQLB3gWlHAqzyCBSSDqu\nb04/PZ8gjQpg3EpjT/o6nQkpkcqLzAh/putKj433qwIDAQABAoGARvfhecu4kbCgFjzRytcm\nEImGI593EKAHs0d3VChY5jomsLTD3QOL6gVBL0GyilprlvjGLemT0o6cSzHIfg7FfJN5nLZ1\nCghGESlHlqeSy0Mya6RoeINX6fcH02mlYjPOIu5GL57Eo2DQ5BWILk4gbm/hYasftqKh3Gyd\nnfZQ1IECQQDq+Pylo57OddzGLWvEHqZhTeRE+zbs90P6K659SzyFIE4Qfmj8GgkiKVLMURgf\n8PiTCvZJvt3Nx0Iq2RwuyL7hAkEAyayVRfdChThAKQTDU3IDVM01XtYT4QPPhuIx7Inag2E4\nh0+AdTGviiKZesS+B+0XPlgW1F64OBSfnerTo3pECwJASbJcM2t1JJYs729RjIp8bqpqfQQ5\nvuryxCUtLhkJ20s9kMjFDsTvtmo1kOWiZmpC3IOkqY6WrLLhWuULhNTroQJAacsB51kE6TOP\n3LSl7kEx5Ctd4uj0Nqa0F7LSs53BJgg7Cig3X8L3rcPmtVM9yJSkC81T9IXXp3uSG9oSuYAq\n7wJAFuavZ/WbQ/t1qIkv93duSy4sAyQ2rDHKARs1Nw1i1p376sAUOX4i7swwX71IEDaqVgZd\nfBE7OeMNfwVINxSLYA==\n-----END RSA PRIVATE KEY-----\n",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06230",
+      "group": "core",
+      "key": "members_public_key",
+      "value": "-----BEGIN RSA PUBLIC KEY-----\nMIGJAoGBAJCzdC8zpMbi4gr4KOYZuIu9cFnk0eqYksn/R/ec51NIZ2y/kTUPhNAg4AhNpi4r\ng/NKEAZYfhYBZi5L1oRoe1x3X2oYclnATSZpzXROr9RyuLAiXKqWCrLIcoLiNoSdhi009HuR\nm+cSCe4rU/vcQJDyiJ2qxidqC3iJk+bKAqSfAgMBAAE=\n-----END RSA PUBLIC KEY-----\n",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06231",
+      "group": "core",
+      "key": "members_private_key",
+      "value": "-----BEGIN RSA PRIVATE KEY-----\nMIICXgIBAAKBgQCQs3QvM6TG4uIK+CjmGbiLvXBZ5NHqmJLJ/0f3nOdTSGdsv5E1D4TQIOAI\nTaYuK4PzShAGWH4WAWYuS9aEaHtcd19qGHJZwE0mac10Tq/UcriwIlyqlgqyyHKC4jaEnYYt\nNPR7kZvnEgnuK1P73ECQ8oidqsYnagt4iZPmygKknwIDAQABAoGAYIEOb5yFvI78KkyvGib1\nSV0iXRGaXlc7LrSujpl6PbUAJSrt8PFUpmoGgAMpXYlwCwXOAi1qicqNFztE6jG0c0CllTHS\nWW2N33fVDAwi0yOo/dGQKHXQqR3JsaUw8S8IAxbZAUWyWT6C2V1YkNccz/7RQpH1h/UdRPmT\n7JF0w2ECQQD76MIoEWX3WK5PgvHcpNX96JUSKIhoV82EBR7wKSg9iFswDwcdjSQQWKEteRD2\nPnrT1kiCkKn9lng1VH7JwtxjAkEAkw0B6CJ5QYtFQOXQ2k4YumrXIUVvYuXPsvHzVSlp9qa5\nrxQHixD+Xl+/de/Tft4VHVqV/Mu/ScyuSk8RMP7VlQJBAPr9lMX7X88s6rCKVZV0H0rXPABV\npmPgaAKMX6EGQPPeMo0VzA8jm7U1uZHnOIFBC3yZ2rFMljL2g1sPjyxUHOUCQQAPLUyBFO3G\n4gTnydBgd6b9toE1oeD5KBbjtS0UIQ4asuJ/O2X76GkYfHFaTsJZWbp8KRlJ2g2IJGPor3hq\nwiJxAkEAr/70ooLtvgiwsHTbjYr4R4Hus9E2eK37ty3TIHspjhwZPH2hWghso2KIYk3f/Tm+\n2jkGIbrC+0qokllZGIt1MQ==\n-----END RSA PRIVATE KEY-----\n",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06232",
+      "group": "core",
+      "key": "members_email_auth_secret",
+      "value": "0f0c38322c8e378b2843458e65d92730df6f359e403cc36ae3be695ed282ed751ba98fefc8c25488a7e90bc5de9ae0b8a6760cd04e64db6d0f1b84b93484d3c9",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06235",
+      "group": "core",
+      "key": "members_otc_secret",
+      "value": "c2bc184b9a91cf62f09b2a965d5788c2471e2fe84319ed1d38f9a936f7c1cbb72749a06f620d5f98c7676f7a8316c4b10da89430449f888d2bdde375ec0cd25c",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06236",
+      "group": "core",
+      "key": "site_uuid",
+      "value": "87e169eb-e012-46df-b7b5-fb628f7a5cc8",
+      "type": "string",
+      "flags": "PUBLIC,RO",
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06237",
+      "group": "site",
+      "key": "title",
+      "value": "我的开源学习博客",
+      "type": "string",
+      "flags": "PUBLIC",
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 21:51:24"
+     },
+     {
+      "id": "6a997b17cc73742574e06238",
+      "group": "site",
+      "key": "description",
+      "value": "记录我用开源项目 Ghost 做个人博客二次开发的全过程与学习笔记",
+      "type": "string",
+      "flags": "PUBLIC",
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 22:17:49"
+     },
+     {
+      "id": "6a997b17cc73742574e06239",
+      "group": "site",
+      "key": "heading_font",
+      "value": "",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0623a",
+      "group": "site",
+      "key": "body_font",
+      "value": "",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0623b",
+      "group": "site",
+      "key": "logo",
+      "value": "",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0623c",
+      "group": "site",
+      "key": "cover_image",
+      "value": "https://static.ghost.org/v5.0.0/images/publication-cover.jpg",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0623d",
+      "group": "site",
+      "key": "icon",
+      "value": "",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0623e",
+      "group": "site",
+      "key": "accent_color",
+      "value": "#127a7a",
+      "type": "string",
+      "flags": "PUBLIC",
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 22:11:41"
+     },
+     {
+      "id": "6a997b17cc73742574e0623f",
+      "group": "site",
+      "key": "locale",
+      "value": "zh_CN",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 22:11:41"
+     },
+     {
+      "id": "6a997b17cc73742574e06240",
+      "group": "site",
+      "key": "timezone",
+      "value": "Etc/UTC",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06241",
+      "group": "site",
+      "key": "codeinjection_head",
+      "value": "",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06242",
+      "group": "site",
+      "key": "codeinjection_foot",
+      "value": "",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06243",
+      "group": "site",
+      "key": "facebook",
+      "value": "ghost",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06244",
+      "group": "site",
+      "key": "twitter",
+      "value": "@ghost",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06245",
+      "group": "site",
+      "key": "navigation",
+      "value": "[{\"label\":\"首页\",\"url\":\"/\"},{\"label\":\"开源项目学习\",\"url\":\"/tag/kaiyuan-xiangmu/\"},{\"label\":\"二次开发笔记\",\"url\":\"/tag/erci-kaifa/\"},{\"label\":\"校园生活随笔\",\"url\":\"/tag/xiaoyuan-shenghuo/\"},{\"label\":\"站内搜索\",\"url\":\"/sousuo/\"},{\"label\":\"关于\",\"url\":\"/about/\"}]",
+      "type": "array",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 22:14:40"
+     },
+     {
+      "id": "6a997b17cc73742574e06246",
+      "group": "site",
+      "key": "secondary_navigation",
+      "value": "[{\"label\":\"会员登录\",\"url\":\"#/portal/signin\"}]",
+      "type": "array",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 22:11:41"
+     },
+     {
+      "id": "6a997b17cc73742574e06247",
+      "group": "site",
+      "key": "meta_title",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06248",
+      "group": "site",
+      "key": "meta_description",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06249",
+      "group": "site",
+      "key": "og_image",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0624a",
+      "group": "site",
+      "key": "og_title",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0624b",
+      "group": "site",
+      "key": "og_description",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0624c",
+      "group": "site",
+      "key": "twitter_image",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0624d",
+      "group": "site",
+      "key": "twitter_title",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0624e",
+      "group": "site",
+      "key": "twitter_description",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0624f",
+      "group": "theme",
+      "key": "active_theme",
+      "value": "shiyanke-theme",
+      "type": "string",
+      "flags": "RO",
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 22:15:50"
+     },
+     {
+      "id": "6a997b17cc73742574e06250",
+      "group": "private",
+      "key": "is_private",
+      "value": "false",
+      "type": "boolean",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06251",
+      "group": "private",
+      "key": "password",
+      "value": "",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06252",
+      "group": "private",
+      "key": "public_hash",
+      "value": "f2ac31646feb46b7d74f1aa7424b30",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06253",
+      "group": "members",
+      "key": "default_content_visibility",
+      "value": "public",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06254",
+      "group": "members",
+      "key": "default_content_visibility_tiers",
+      "value": "[]",
+      "type": "array",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06255",
+      "group": "members",
+      "key": "members_signup_access",
+      "value": "all",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06256",
+      "group": "members",
+      "key": "members_support_address",
+      "value": "noreply",
+      "type": "string",
+      "flags": "PUBLIC,RO",
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06259",
+      "group": "members",
+      "key": "stripe_plans",
+      "value": "[]",
+      "type": "array",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0625c",
+      "group": "members",
+      "key": "stripe_connect_livemode",
+      "value": null,
+      "type": "boolean",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0625d",
+      "group": "members",
+      "key": "stripe_connect_display_name",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0625f",
+      "group": "members",
+      "key": "members_monthly_price_id",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06260",
+      "group": "members",
+      "key": "members_yearly_price_id",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06261",
+      "group": "members",
+      "key": "members_track_sources",
+      "value": "true",
+      "type": "boolean",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06262",
+      "group": "members",
+      "key": "blocked_email_domains",
+      "value": "[]",
+      "type": "array",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06263",
+      "group": "portal",
+      "key": "portal_name",
+      "value": "true",
+      "type": "boolean",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06264",
+      "group": "portal",
+      "key": "portal_button",
+      "value": "false",
+      "type": "boolean",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06265",
+      "group": "portal",
+      "key": "portal_plans",
+      "value": "[\"free\"]",
+      "type": "array",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06266",
+      "group": "portal",
+      "key": "portal_default_plan",
+      "value": "yearly",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06267",
+      "group": "portal",
+      "key": "portal_products",
+      "value": "[]",
+      "type": "array",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06268",
+      "group": "portal",
+      "key": "portal_button_style",
+      "value": "icon-and-text",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06269",
+      "group": "portal",
+      "key": "portal_button_icon",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0626a",
+      "group": "portal",
+      "key": "portal_button_signup_text",
+      "value": "Subscribe",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0626b",
+      "group": "portal",
+      "key": "portal_signup_terms_html",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0626c",
+      "group": "portal",
+      "key": "portal_signup_checkbox_required",
+      "value": "false",
+      "type": "boolean",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0626d",
+      "group": "email",
+      "key": "mailgun_domain",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0626e",
+      "group": "email",
+      "key": "mailgun_api_key",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0626f",
+      "group": "email",
+      "key": "mailgun_base_url",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06270",
+      "group": "email",
+      "key": "email_track_opens",
+      "value": "true",
+      "type": "boolean",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06271",
+      "group": "email",
+      "key": "email_track_clicks",
+      "value": "true",
+      "type": "boolean",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06273",
+      "group": "firstpromoter",
+      "key": "firstpromoter",
+      "value": "false",
+      "type": "boolean",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06274",
+      "group": "firstpromoter",
+      "key": "firstpromoter_id",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06275",
+      "group": "labs",
+      "key": "labs",
+      "value": "{}",
+      "type": "object",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06276",
+      "group": "slack",
+      "key": "slack_url",
+      "value": "",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06277",
+      "group": "slack",
+      "key": "slack_username",
+      "value": "Ghost",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06278",
+      "group": "unsplash",
+      "key": "unsplash",
+      "value": "true",
+      "type": "boolean",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06279",
+      "group": "views",
+      "key": "shared_views",
+      "value": "[]",
+      "type": "array",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0627a",
+      "group": "editor",
+      "key": "editor_default_email_recipients",
+      "value": "visibility",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0627b",
+      "group": "editor",
+      "key": "editor_default_email_recipients_filter",
+      "value": "all",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0627c",
+      "group": "announcement",
+      "key": "announcement_content",
+      "value": null,
+      "type": "string",
+      "flags": "PUBLIC",
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0627d",
+      "group": "announcement",
+      "key": "announcement_visibility",
+      "value": "[]",
+      "type": "array",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0627e",
+      "group": "announcement",
+      "key": "announcement_background",
+      "value": "dark",
+      "type": "string",
+      "flags": "PUBLIC",
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0627f",
+      "group": "comments",
+      "key": "comments_enabled",
+      "value": "all",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 22:11:41"
+     },
+     {
+      "id": "6a997b17cc73742574e06280",
+      "group": "analytics",
+      "key": "outbound_link_tagging",
+      "value": "true",
+      "type": "boolean",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06281",
+      "group": "analytics",
+      "key": "web_analytics",
+      "value": "true",
+      "type": "boolean",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06282",
+      "group": "pintura",
+      "key": "pintura",
+      "value": "true",
+      "type": "boolean",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06283",
+      "group": "pintura",
+      "key": "pintura_js_url",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06284",
+      "group": "pintura",
+      "key": "pintura_css_url",
+      "value": null,
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06285",
+      "group": "donations",
+      "key": "donations_currency",
+      "value": "USD",
+      "type": "string",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06286",
+      "group": "donations",
+      "key": "donations_suggested_amount",
+      "value": "500",
+      "type": "number",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06287",
+      "group": "recommendations",
+      "key": "recommendations_enabled",
+      "value": "false",
+      "type": "boolean",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06288",
+      "group": "security",
+      "key": "require_email_mfa",
+      "value": "0",
+      "type": "boolean",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e06289",
+      "group": "social_web",
+      "key": "social_web",
+      "value": "true",
+      "type": "boolean",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0628a",
+      "group": "explore",
+      "key": "explore_ping",
+      "value": "true",
+      "type": "boolean",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     },
+     {
+      "id": "6a997b17cc73742574e0628b",
+      "group": "explore",
+      "key": "explore_ping_growth",
+      "value": "false",
+      "type": "boolean",
+      "flags": null,
+      "created_at": "2026-09-03 13:50:15",
+      "updated_at": "2026-09-03 13:50:15"
+     }
+    ],
+    "tags": [
+     {
+      "id": "6a99801ed536586bc0d9af4d",
+      "name": "开源项目学习",
+      "slug": "kaiyuan-xiangmu",
+      "description": "学习成熟开源项目的笔记与思考",
+      "feature_image": null,
+      "parent_id": null,
+      "visibility": "public",
+      "og_image": null,
+      "og_title": null,
+      "og_description": null,
+      "twitter_image": null,
+      "twitter_title": null,
+      "twitter_description": null,
+      "meta_title": null,
+      "meta_description": null,
+      "codeinjection_head": null,
+      "codeinjection_foot": null,
+      "canonical_url": null,
+      "accent_color": null,
+      "created_at": "2026-09-03 22:11:42",
+      "updated_at": "2026-09-03 22:11:42"
+     },
+     {
+      "id": "6a99801ed536586bc0d9af4f",
+      "name": "二次开发笔记",
+      "slug": "erci-kaifa",
+      "description": "基于 Ghost 的主题与功能二次开发记录",
+      "feature_image": null,
+      "parent_id": null,
+      "visibility": "public",
+      "og_image": null,
+      "og_title": null,
+      "og_description": null,
+      "twitter_image": null,
+      "twitter_title": null,
+      "twitter_description": null,
+      "meta_title": null,
+      "meta_description": null,
+      "codeinjection_head": null,
+      "codeinjection_foot": null,
+      "canonical_url": null,
+      "accent_color": null,
+      "created_at": "2026-09-03 22:11:42",
+      "updated_at": "2026-09-03 22:11:42"
+     },
+     {
+      "id": "6a99801ed536586bc0d9af51",
+      "name": "校园生活随笔",
+      "slug": "xiaoyuan-shenghuo",
+      "description": "写代码之外的校园日常",
+      "feature_image": null,
+      "parent_id": null,
+      "visibility": "public",
+      "og_image": null,
+      "og_title": null,
+      "og_description": null,
+      "twitter_image": null,
+      "twitter_title": null,
+      "twitter_description": null,
+      "meta_title": null,
+      "meta_description": null,
+      "codeinjection_head": null,
+      "codeinjection_foot": null,
+      "canonical_url": null,
+      "accent_color": null,
+      "created_at": "2026-09-03 22:11:42",
+      "updated_at": "2026-09-03 22:11:42"
+     }
+    ],
+    "posts_tags": [
+     {
+      "id": "6a9980ced536586bc0d9af5a",
+      "post_id": "6a9980cdd536586bc0d9af59",
+      "tag_id": "6a99801ed536586bc0d9af4d",
+      "sort_order": 0
+     },
+     {
+      "id": "6a9980ced536586bc0d9af5b",
+      "post_id": "6a9980cdd536586bc0d9af59",
+      "tag_id": "6a99801ed536586bc0d9af4f",
+      "sort_order": 1
+     },
+     {
+      "id": "6a9980ced536586bc0d9af60",
+      "post_id": "6a9980ced536586bc0d9af5f",
+      "tag_id": "6a99801ed536586bc0d9af4f",
+      "sort_order": 0
+     },
+     {
+      "id": "6a9980ced536586bc0d9af65",
+      "post_id": "6a9980ced536586bc0d9af64",
+      "tag_id": "6a99801ed536586bc0d9af4f",
+      "sort_order": 0
+     },
+     {
+      "id": "6a9980ced536586bc0d9af6a",
+      "post_id": "6a9980ced536586bc0d9af69",
+      "tag_id": "6a99801ed536586bc0d9af4d",
+      "sort_order": 0
+     },
+     {
+      "id": "6a9980cfd536586bc0d9af6f",
+      "post_id": "6a9980cfd536586bc0d9af6e",
+      "tag_id": "6a99801ed536586bc0d9af4d",
+      "sort_order": 0
+     },
+     {
+      "id": "6a9980cfd536586bc0d9af74",
+      "post_id": "6a9980cfd536586bc0d9af73",
+      "tag_id": "6a99801ed536586bc0d9af4f",
+      "sort_order": 0
+     },
+     {
+      "id": "6a9980cfd536586bc0d9af79",
+      "post_id": "6a9980cfd536586bc0d9af78",
+      "tag_id": "6a99801ed536586bc0d9af51",
+      "sort_order": 0
+     },
+     {
+      "id": "6a9980cfd536586bc0d9af7e",
+      "post_id": "6a9980cfd536586bc0d9af7d",
+      "tag_id": "6a99801ed536586bc0d9af51",
+      "sort_order": 0
+     }
+    ],
+    "products": [
+     {
+      "id": "6a997b15cc73742574e05fec",
+      "name": "Free",
+      "slug": "free",
+      "active": 1,
+      "welcome_page_url": null,
+      "visibility": "public",
+      "trial_days": 0,
+      "description": null,
+      "type": "free",
+      "currency": null,
+      "monthly_price": null,
+      "yearly_price": null,
+      "created_at": "2026-09-03 21:50:13",
+      "updated_at": "2026-09-03 21:50:13",
+      "monthly_price_id": null,
+      "yearly_price_id": null
+     },
+     {
+      "id": "6a997b15cc73742574e05fed",
+      "name": "我的开源学习博客",
+      "slug": "default-product",
+      "active": 1,
+      "welcome_page_url": null,
+      "visibility": "public",
+      "trial_days": 0,
+      "description": null,
+      "type": "paid",
+      "currency": "USD",
+      "monthly_price": 500,
+      "yearly_price": 5000,
+      "created_at": "2026-09-03 21:50:13",
+      "updated_at": "2026-09-03 21:51:24",
+      "monthly_price_id": null,
+      "yearly_price_id": null
+     }
+    ],
+    "offers": [],
+    "benefits": [],
+    "products_benefits": [],
+    "posts_products": [],
+    "offer_redemptions": [],
+    "stripe_products": [],
+    "stripe_prices": [],
+    "snippets": [],
+    "custom_theme_settings": [
+     {
+      "id": "6a997febd536586bc0d9af2f",
+      "theme": "source",
+      "key": "navigation_layout",
+      "type": "select",
+      "value": "Logo in the middle"
+     },
+     {
+      "id": "6a997febd536586bc0d9af30",
+      "theme": "source",
+      "key": "site_background_color",
+      "type": "color",
+      "value": "#ffffff"
+     },
+     {
+      "id": "6a997febd536586bc0d9af31",
+      "theme": "source",
+      "key": "header_and_footer_color",
+      "type": "select",
+      "value": "Background color"
+     },
+     {
+      "id": "6a997febd536586bc0d9af32",
+      "theme": "source",
+      "key": "title_font",
+      "type": "select",
+      "value": "Modern sans-serif"
+     },
+     {
+      "id": "6a997febd536586bc0d9af33",
+      "theme": "source",
+      "key": "body_font",
+      "type": "select",
+      "value": "Modern sans-serif"
+     },
+     {
+      "id": "6a997febd536586bc0d9af34",
+      "theme": "source",
+      "key": "signup_heading",
+      "type": "text",
+      "value": null
+     },
+     {
+      "id": "6a997febd536586bc0d9af35",
+      "theme": "source",
+      "key": "signup_subheading",
+      "type": "text",
+      "value": null
+     },
+     {
+      "id": "6a997febd536586bc0d9af36",
+      "theme": "source",
+      "key": "header_style",
+      "type": "select",
+      "value": "Landing"
+     },
+     {
+      "id": "6a997febd536586bc0d9af37",
+      "theme": "source",
+      "key": "header_text",
+      "type": "text",
+      "value": null
+     },
+     {
+      "id": "6a997febd536586bc0d9af38",
+      "theme": "source",
+      "key": "background_image",
+      "type": "boolean",
+      "value": "true"
+     },
+     {
+      "id": "6a997febd536586bc0d9af39",
+      "theme": "source",
+      "key": "show_featured_posts",
+      "type": "boolean",
+      "value": "false"
+     },
+     {
+      "id": "6a997febd536586bc0d9af3a",
+      "theme": "source",
+      "key": "post_feed_style",
+      "type": "select",
+      "value": "List"
+     },
+     {
+      "id": "6a997febd536586bc0d9af3b",
+      "theme": "source",
+      "key": "show_images_in_feed",
+      "type": "boolean",
+      "value": "true"
+     },
+     {
+      "id": "6a997febd536586bc0d9af3c",
+      "theme": "source",
+      "key": "show_author",
+      "type": "boolean",
+      "value": "true"
+     },
+     {
+      "id": "6a997febd536586bc0d9af3d",
+      "theme": "source",
+      "key": "show_publish_date",
+      "type": "boolean",
+      "value": "true"
+     },
+     {
+      "id": "6a997febd536586bc0d9af3e",
+      "theme": "source",
+      "key": "show_publication_info_sidebar",
+      "type": "boolean",
+      "value": "false"
+     },
+     {
+      "id": "6a997febd536586bc0d9af3f",
+      "theme": "source",
+      "key": "show_post_metadata",
+      "type": "boolean",
+      "value": "true"
+     },
+     {
+      "id": "6a997febd536586bc0d9af40",
+      "theme": "source",
+      "key": "enable_drop_caps_on_posts",
+      "type": "boolean",
+      "value": "false"
+     },
+     {
+      "id": "6a997febd536586bc0d9af41",
+      "theme": "source",
+      "key": "show_related_articles",
+      "type": "boolean",
+      "value": "true"
+     },
+     {
+      "id": "6a998116d536586bc0d9af97",
+      "theme": "shiyanke-theme",
+      "key": "navigation_layout",
+      "type": "select",
+      "value": "Logo on the left"
+     },
+     {
+      "id": "6a998116d536586bc0d9af98",
+      "theme": "shiyanke-theme",
+      "key": "site_background_color",
+      "type": "color",
+      "value": "#fbfaf7"
+     },
+     {
+      "id": "6a998116d536586bc0d9af99",
+      "theme": "shiyanke-theme",
+      "key": "header_and_footer_color",
+      "type": "select",
+      "value": "Background color"
+     },
+     {
+      "id": "6a998116d536586bc0d9af9a",
+      "theme": "shiyanke-theme",
+      "key": "title_font",
+      "type": "select",
+      "value": "Modern sans-serif"
+     },
+     {
+      "id": "6a998116d536586bc0d9af9b",
+      "theme": "shiyanke-theme",
+      "key": "body_font",
+      "type": "select",
+      "value": "Modern sans-serif"
+     },
+     {
+      "id": "6a998116d536586bc0d9af9c",
+      "theme": "shiyanke-theme",
+      "key": "signup_heading",
+      "type": "text",
+      "value": null
+     },
+     {
+      "id": "6a998116d536586bc0d9af9d",
+      "theme": "shiyanke-theme",
+      "key": "signup_subheading",
+      "type": "text",
+      "value": null
+     },
+     {
+      "id": "6a998116d536586bc0d9af9e",
+      "theme": "shiyanke-theme",
+      "key": "header_style",
+      "type": "select",
+      "value": "Landing"
+     },
+     {
+      "id": "6a998116d536586bc0d9af9f",
+      "theme": "shiyanke-theme",
+      "key": "header_text",
+      "type": "text",
+      "value": null
+     },
+     {
+      "id": "6a998116d536586bc0d9afa0",
+      "theme": "shiyanke-theme",
+      "key": "background_image",
+      "type": "boolean",
+      "value": "true"
+     },
+     {
+      "id": "6a998116d536586bc0d9afa1",
+      "theme": "shiyanke-theme",
+      "key": "show_featured_posts",
+      "type": "boolean",
+      "value": "false"
+     },
+     {
+      "id": "6a998116d536586bc0d9afa2",
+      "theme": "shiyanke-theme",
+      "key": "post_feed_style",
+      "type": "select",
+      "value": "List"
+     },
+     {
+      "id": "6a998116d536586bc0d9afa3",
+      "theme": "shiyanke-theme",
+      "key": "show_images_in_feed",
+      "type": "boolean",
+      "value": "true"
+     },
+     {
+      "id": "6a998116d536586bc0d9afa4",
+      "theme": "shiyanke-theme",
+      "key": "show_author",
+      "type": "boolean",
+      "value": "true"
+     },
+     {
+      "id": "6a998116d536586bc0d9afa5",
+      "theme": "shiyanke-theme",
+      "key": "show_publish_date",
+      "type": "boolean",
+      "value": "true"
+     },
+     {
+      "id": "6a998116d536586bc0d9afa6",
+      "theme": "shiyanke-theme",
+      "key": "show_publication_info_sidebar",
+      "type": "boolean",
+      "value": "false"
+     },
+     {
+      "id": "6a998116d536586bc0d9afa7",
+      "theme": "shiyanke-theme",
+      "key": "show_post_metadata",
+      "type": "boolean",
+      "value": "true"
+     },
+     {
+      "id": "6a998116d536586bc0d9afa8",
+      "theme": "shiyanke-theme",
+      "key": "enable_drop_caps_on_posts",
+      "type": "boolean",
+      "value": "false"
+     },
+     {
+      "id": "6a998116d536586bc0d9afa9",
+      "theme": "shiyanke-theme",
+      "key": "show_related_articles",
+      "type": "boolean",
+      "value": "true"
+     }
+    ]
+   }
+  }
+ ]
+}

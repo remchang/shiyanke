@@ -112,10 +112,16 @@ node tests\zidong\ceshi.js         # 跑 18 条自动化测试
 
 ## 六、备份与恢复
 
-- 冷备份：复制 `runtime/yunxing/content/data/ghost-dev.db`。
-- 管理端导出：`/ghost/` → 设置 → 导出内容（生成 JSON）。
-- 恢复：把 `ghost-dev.db` 复制回原位（或管理端导入 JSON），重启后文章/标签/评论/主题均可用
-  （由 T17/T18 验证）。
+- **内容（文章/页面/标签/设置）**：管理端导出 JSON（`/ghost/` → 设置 → 导出内容），
+  实测可导出 8 篇文章 + 2 页面 + 3 标签 + 94 项设置（存档：`docs/daochu/beifen-20260903.json`）。
+- **会员与评论**：实测 **Ghost 的 JSON 导出不包含 members/comments 表**（涉及隐私/付费数据，属 Ghost 设计），
+  因此会员与评论靠**数据库冷备份**恢复：把 `runtime/yunxing/content/data/ghost-dev.db`
+  复制走/复制回（备份示例：`runtime/yunxing/beifen/`）。
+- 恢复验证：重启 Ghost 后公开文章仍为 8 篇（T17）、导出 JSON 含数据（T18），
+  均被 `tests/zidong/ceshi.js` 自动断言。
+
+> 实测结论：单一 JSON 导出并不能完整还原博客（缺会员/评论），**完整备份 = 导出 JSON + 数据库冷备份**，
+> 这也是实验任务7"备份恢复"里值得记录的一个发现。
 
 ## 七、工作记录与 Git 过程
 
