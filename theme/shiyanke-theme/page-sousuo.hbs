@@ -1,0 +1,62 @@
+{{!< default}}
+{{!-- ===========================================================
+  实验自主功能（Issue #3）：本地搜索增强页
+  - 只使用 Content API 只读公开密钥，管理密钥绝不出现在前端
+  - 关键词同时匹配标题/摘要/正文纯文本，结果中高亮关键词
+  - 最近搜索存 localStorage，无结果时用 Ghost 标签做兜底推荐
+  =========================================================== --}}
+
+<main class="gh-main zhuti-sousuo-ye gh-canvas">
+
+    <header class="zhuti-sousuo-header">
+        <h1 class="is-title zhuti-sousuo-biaoti">站内搜索</h1>
+        <p class="is-body zhuti-sousuo-miaoshu">输入中文关键词，可以按标题和正文查找已公开发布的文章。</p>
+
+        <form class="zhuti-sousuo-biaodan" id="sousuoBiaodan" role="search" autocomplete="off">
+            <label class="zhuti-sousuo-biaoqian" for="sousuoShuru">关键词</label>
+            <input
+                type="search"
+                id="sousuoShuru"
+                name="guanjianci"
+                placeholder="例如：开源、Ghost、二次开发……"
+                aria-describedby="sousuoTishi"
+            >
+            <button type="submit" class="gh-button zhuti-sousuo-anniu">搜索</button>
+        </form>
+        <p id="sousuoTishi" class="zhuti-sousuo-zhuangtai is-body" aria-live="polite"></p>
+    </header>
+
+    {{!-- 最近搜索：由 bendi-sousuo.js 渲染，没有记录时整块隐藏 --}}
+    <section class="zhuti-zuijin-sousuo" id="zuijinSousuoQu" hidden>
+        <h2 class="zhuti-xiao-biaoti">最近搜索
+            <button type="button" id="qingkongZuijin" class="zhuti-qingkong-lianjie">清空</button>
+        </h2>
+        <ul class="zhuti-zuijin-liebiao" id="zuijinSousuoLiebiao"></ul>
+    </section>
+
+    {{!-- 搜索结果列表 --}}
+    <section class="zhuti-jieguo-qu" id="jieguoQu" hidden aria-label="搜索结果">
+        <h2 class="zhuti-xiao-biaoti" id="jieguoBiaoti">搜索结果</h2>
+        <ul class="zhuti-jieguo-liebiao" id="jieguoLiebiao"></ul>
+    </section>
+
+    {{!-- 无结果时显示：一句提示 + 全部标签兜底（标签由 Ghost 服务端直接渲染，不依赖前端请求）--}}
+    <section class="zhuti-wujieguo-qu" id="wuJieGuoQu" hidden>
+        <h2 class="zhuti-xiao-biaoti">没有找到相关文章</h2>
+        <p class="is-body">换个关键词试试，或者从下面的标签继续逛：</p>
+        <div class="zhuti-biaoqian-qiang">
+            {{#get "tags" limit="100" include="count.posts" order="count.posts desc"}}
+                {{#foreach tags}}
+                    <a class="zhuti-biaoqian-pill" href="{{url}}">{{name}}（{{count.posts}}）</a>
+                {{/foreach}}
+            {{/get}}
+        </div>
+    </section>
+
+</main>
+
+{{!-- 把站点地址和 Content API 只读密钥传给前端脚本；__NEIRONG_API_KEY__ 由部署脚本替换 --}}
+<div id="sousuoPeizhi"
+     data-zhanzhi="{{@site.url}}"
+     data-neirong-key="__NEIRONG_API_KEY__"
+     hidden></div>

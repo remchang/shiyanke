@@ -1,0 +1,257 @@
+/* =========================================================
+   zhuti-gaizao.css —— 实验01 自定义主题样式覆盖层
+   作者：王锐兵 软件2304
+   说明：不直接改官方 screen.css，所有自己加的样式集中在这里，
+        万一改坏了，删掉本文件引用即可恢复官方样式，方便回滚。
+   ========================================================= */
+
+:root {
+    /* 把官方默认的亮粉强调色换成更耐看的青蓝色，属于个人视觉调整 */
+    --zhuti-zhuse: #127a7a;
+    --zhuti-zhuse-qian: #e6f3f3;
+    --zhuti-beijing: #fbfaf7;
+    --zhuti-biankuang: #e4e1da;
+    --zhuti-wenzi: #23282d;
+}
+
+/* 整站换成偏暖的纸张底色，长时间阅读不刺眼 */
+body {
+    background-color: var(--zhuti-beijing);
+    color: var(--zhuti-wenzi);
+}
+
+.gh-navigation a,
+.gh-button {
+    border-radius: 6px;
+}
+
+.gh-button {
+    background-color: var(--zhuti-zhuse);
+    border-color: var(--zhuti-zhuse);
+}
+
+.gh-button:hover {
+    background-color: #0e5f5f;
+}
+
+a {
+    color: var(--zhuti-zhuse);
+}
+
+/* ---------- 文章卡片：加细边框和悬浮反馈，列表更整齐 ---------- */
+.gh-card {
+    border: 1px solid var(--zhuti-biankuang);
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 4px;
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.gh-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(18, 122, 122, .12);
+}
+
+.gh-card-tag {
+    color: var(--zhuti-zhuse);
+    font-weight: 600;
+}
+
+.gh-card-reading {
+    color: #8a8f98;
+    font-size: 1.3rem;
+}
+
+/* ---------- 文章详情页：标签胶囊 ---------- */
+.zhuti-wenzhang-biaoqian {
+    margin-top: 32px;
+    padding-top: 18px;
+    border-top: 1px dashed var(--zhuti-biankuang);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+.zhuti-biaoqian-ti {
+    font-size: 1.4rem;
+    color: #8a8f98;
+}
+
+.zhuti-biaoqian-pill {
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 999px;
+    background-color: var(--zhuti-zhuse-qian);
+    color: var(--zhuti-zhuse) !important;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    text-decoration: none;
+    border: 1px solid #cfe5e5;
+}
+
+.zhuti-biaoqian-pill:hover {
+    background-color: var(--zhuti-zhuse);
+    color: #fff !important;
+}
+
+/* =========================================================
+   自建搜索页（page-sousuo.hbs + bendi-sousuo.js）
+   ========================================================= */
+.zhuti-sousuo-ye {
+    max-width: 820px;
+    padding: 48px 24px 64px;
+}
+
+.zhuti-sousuo-biaoti {
+    margin-bottom: 8px;
+}
+
+.zhuti-sousuo-miaoshu {
+    color: #5b6168;
+    margin-bottom: 24px;
+}
+
+.zhuti-sousuo-biaodan {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.zhuti-sousuo-biaodan input[type="search"] {
+    flex: 1 1 260px;
+    padding: 11px 14px;
+    font-size: 1.6rem;
+    border: 1px solid var(--zhuti-biankuang);
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.zhuti-sousuo-biaodan input[type="search"]:focus {
+    outline: 2px solid var(--zhuti-zhuse-qian);
+    border-color: var(--zhuti-zhuse);
+}
+
+.zhuti-sousuo-anniu {
+    padding: 10px 22px;
+    cursor: pointer;
+}
+
+.zhuti-sousuo-zhuangtai {
+    margin-top: 12px;
+    color: #5b6168;
+    min-height: 1.6em;
+}
+
+.zhuti-xiao-biaoti {
+    font-size: 1.7rem;
+    margin: 28px 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.zhuti-qingkong-lianjie {
+    border: 0;
+    background: none;
+    color: #8a8f98;
+    font-size: 1.3rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.zhuti-zuijin-liebiao {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+.zhuti-zuijin-ci {
+    border: 1px solid var(--zhuti-biankuang);
+    background: #fff;
+    border-radius: 999px;
+    padding: 4px 14px;
+    font-size: 1.35rem;
+    cursor: pointer;
+    color: var(--zhuti-wenzi);
+}
+
+.zhuti-zuijin-ci:hover {
+    border-color: var(--zhuti-zhuse);
+    color: var(--zhuti-zhuse);
+}
+
+.zhuti-jieguo-liebiao {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.zhuti-jieguo-xiang {
+    border: 1px solid var(--zhuti-biankuang);
+    border-radius: 10px;
+    background: #fff;
+}
+
+.zhuti-jieguo-lianjie {
+    display: block;
+    padding: 16px 18px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.zhuti-jieguo-lianjie:hover .zhuti-jieguo-biaoti {
+    color: var(--zhuti-zhuse);
+}
+
+.zhuti-jieguo-biaoti {
+    margin: 0 0 6px;
+    font-size: 1.9rem;
+}
+
+.zhuti-jieguo-zhaiyao {
+    margin: 0 0 8px;
+    color: #5b6168;
+    font-size: 1.45rem;
+    line-height: 1.7;
+}
+
+.zhuti-jieguo-xinxi {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #9aa0a6;
+}
+
+/* 搜索关键词高亮，黄底醒目但不刺眼 */
+.zhuti-jieguo-liebiao mark,
+.zhuti-jieguo-xiang mark {
+    background-color: #ffe9a8;
+    color: inherit;
+    padding: 0 2px;
+    border-radius: 3px;
+}
+
+.zhuti-biaoqian-qiang {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+/* 窄屏适配：搜索框占满整行，内边距收一点 */
+@media (max-width: 600px) {
+    .zhuti-sousuo-ye {
+        padding: 28px 16px 48px;
+    }
+
+    .zhuti-sousuo-anniu {
+        width: 100%;
+    }
+}

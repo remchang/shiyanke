@@ -1,0 +1,56 @@
+{{!-- 实验改造：导航栏中文化；搜索按钮改成跳转到本人自建的本地搜索页 /sousuo/（对应自主功能 Issue #3）--}}
+<header id="gh-navigation" class="gh-navigation is-{{#match navigationLayout "Logo on the left"}}left-logo{{else match navigationLayout "Stacked"}}stacked{{else}}middle-logo{{/match}}{{#match @custom.header_and_footer_color "Accent color"}} has-accent-color{{/match}} gh-outer">
+    <div class="gh-navigation-inner gh-inner">
+
+        <div class="gh-navigation-brand">
+            <a class="gh-navigation-logo is-title" href="{{@site.url}}">
+                {{#if @site.logo}}
+                    <img src="{{@site.logo}}" alt="{{@site.title}}">
+                {{else}}
+                    {{@site.title}}
+                {{/if}}
+            </a>
+            <a class="gh-search gh-icon-button zidingyi-sousuo-rukou" href="{{@site.url}}sousuo/" aria-label="打开搜索页">
+                {{> "icons/search"}}
+            </a>
+            <button class="gh-burger gh-icon-button" aria-label="菜单">
+                {{> "icons/burger"}}
+                {{> "icons/close"}}
+            </button>
+        </div>
+
+        <nav class="gh-navigation-menu" aria-label="主导航">
+            {{navigation}}
+            {{#unless @site.members_enabled}}
+                {{#match navigationLayout "Stacked"}}
+                    <a class="gh-search gh-icon-button zidingyi-sousuo-rukou" href="{{@site.url}}sousuo/" aria-label="打开搜索页">{{> "icons/search"}}</a>
+                {{/match}}
+            {{/unless}}
+        </nav>
+
+        <div class="gh-navigation-actions">
+            {{#unless @site.members_enabled}}
+                {{^match navigationLayout "Stacked"}}
+                    <a class="gh-search gh-icon-button zidingyi-sousuo-rukou" href="{{@site.url}}sousuo/" aria-label="打开搜索页">{{> "icons/search"}}</a>
+                {{/match}}
+            {{else}}
+                <a class="gh-search gh-icon-button zidingyi-sousuo-rukou" href="{{@site.url}}sousuo/" aria-label="打开搜索页">{{> "icons/search"}}</a>
+                <div class="gh-navigation-members">
+                    {{#unless @member}}
+                        {{#unless @site.members_invite_only}}
+                            <a href="#/portal/signin" data-portal="signin">登录</a>
+                            {{#unless hideSubscribeButton}}
+                                <a class="gh-button" href="#/portal/register" data-portal="register">注册会员</a>
+                            {{/unless}}
+                        {{else}}
+                            <a class="gh-button" href="#/portal/signin" data-portal="signin">登录</a>
+                        {{/unless}}
+                    {{else}}
+                        <a class="gh-button" href="#/portal/account" data-portal="account">会员中心</a>
+                    {{/unless}}
+                </div>
+            {{/unless}}
+        </div>
+
+    </div>
+</header>
